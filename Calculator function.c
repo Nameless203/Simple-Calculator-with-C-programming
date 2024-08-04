@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int main() {
     char selector;
     float num1;
@@ -22,6 +23,10 @@ int main() {
             case '/':
                 ans=num1/num2;
                 break;
+            case '^':
+                ans=pow(num1,num2);
+                break;
+            
             default:
                 printf("Please try again");
         }
