@@ -26,6 +26,9 @@ int main() {
             case '^':
                 ans=pow(num1,num2);
                 break;
+            case '%':
+                ans=num1%num2;
+                break;
             
             default:
                 printf("Please try again");
